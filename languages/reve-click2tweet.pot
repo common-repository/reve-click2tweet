@@ -1,0 +1,378 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Reve Click2Tweet\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-26 06:33+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: inc/admin-page.php:31
+msgid "Default value: "
+msgstr ""
+
+#: inc/admin-page.php:37
+msgid ""
+"You can only read this page. To manage the plugin options please contact the "
+"site administrator."
+msgstr ""
+
+#: inc/admin-page.php:64
+msgid "Options succesfully saved."
+msgstr ""
+
+#: inc/admin-page.php:69
+msgid "Options NOT saved. Please check this error and try again: "
+msgstr ""
+
+#: inc/admin-page.php:76
+#, php-format
+msgid ""
+"Are you happy with this plugin? So, %1splease make a donation%2s to "
+"contribute totally free plugins development."
+msgstr ""
+
+#: inc/admin-page.php:101
+msgid "The [revec2t] shortcode preview"
+msgstr ""
+
+#: inc/admin-page.php:103
+msgid ""
+"Note that this is a preview into the administration page. The exact "
+"appearance in frontend depends on your WordPress theme."
+msgstr ""
+
+#: inc/admin-page.php:130
+msgid "The appearance options"
+msgstr ""
+
+#: inc/admin-page.php:149
+msgid "Enter here the call to action label."
+msgstr ""
+
+#: inc/admin-page.php:150
+msgid "Only text (not HTML) up to 64 characters."
+msgstr ""
+
+#: inc/admin-page.php:151
+msgid ""
+"If you want, you can modify this text in each shortcode with the label "
+"attribute."
+msgstr ""
+
+#: inc/admin-page.php:185
+msgid "This option allows you to show or hide the Twitter icon."
+msgstr ""
+
+#: inc/admin-page.php:186
+msgid ""
+"Also you can change this option in each shortcode through the icon attribute."
+msgstr ""
+
+#: inc/admin-page.php:220
+msgid ""
+"Reve Click2Tweet comes with various skins that modify the box appearance."
+msgstr ""
+
+#: inc/admin-page.php:221
+msgid "You can select a skin or none, if you want to add your own custom CSS."
+msgstr ""
+
+#: inc/admin-page.php:247
+msgid "You can enter here your custom CSS styles, as in any CSS file."
+msgstr ""
+
+#: inc/admin-page.php:248
+msgid "Note that this will overwrite the plugin CSS defaults and skin styles."
+msgstr ""
+
+#: inc/admin-page.php:268
+msgid "The funcionality options"
+msgstr ""
+
+#: inc/admin-page.php:287
+msgid ""
+"Enter the hashtags, without # and comma separated, to set default hashtags "
+"to all shortcodes."
+msgstr ""
+
+#: inc/admin-page.php:288
+msgid ""
+"You can customize this value in each shortcode with the hashtags attribute."
+msgstr ""
+
+#: inc/admin-page.php:313
+msgid ""
+"Enter your Twitter account, without @, if you want to set a default via "
+"parameter to all shortcodes."
+msgstr ""
+
+#: inc/admin-page.php:314
+msgid "You can customize this value in each shortcode with the via attribute."
+msgstr ""
+
+#: inc/admin-page.php:348
+msgid ""
+"Select if you want to generate short WordPress URLs based in the post id, "
+"when possible."
+msgstr ""
+
+#: inc/admin-page.php:349
+msgid ""
+"Note that you can modify the default URL in each shortcode with the url "
+"attribute."
+msgstr ""
+
+#: inc/admin-page.php:383
+msgid ""
+"Select if you want to display the Reve Click2Tweet shortcode button in the "
+"admin editor bar."
+msgstr ""
+
+#: inc/admin-page.php:402
+msgid "Cancel"
+msgstr ""
+
+#: inc/admin-page.php:404
+msgid "Save changes"
+msgstr ""
+
+#: inc/admin-page.php:414
+msgid "The [revec2t] shortcode instructions"
+msgstr ""
+
+#: inc/admin-page.php:416
+msgid "How to use:"
+msgstr ""
+
+#: inc/admin-page.php:419
+msgid ""
+"Simply insert the shortcode [revec2t] in any post, page or HTML/text widget."
+msgstr ""
+
+#: inc/admin-page.php:420
+msgid ""
+"To add it you can use the Reve Click2Tweet editor button, if option is "
+"enabled (by default)."
+msgstr ""
+
+#: inc/admin-page.php:426
+msgid ""
+"The shortcode will be replaced by the linkable box that allows your visitors "
+"to share any content on Twitter."
+msgstr ""
+
+#: inc/admin-page.php:432
+msgid ""
+"You can use the following attributes into the shortcode: text, url, hashtags,"
+" via, label, icon and short."
+msgstr ""
+
+#: inc/admin-page.php:438
+msgid ""
+"All attributes are optional. If you don't set the text, the shortcode will "
+"display the URL to share."
+msgstr ""
+
+#: inc/admin-page.php:439
+msgid ""
+"Also, you can set manually the URL, or the shortcode will generate the "
+"current page URL."
+msgstr ""
+
+#: inc/admin-page.php:444
+msgid ""
+"The attributes hashtags, via, label, icon and short allows you to custom "
+"each shortcode."
+msgstr ""
+
+#: inc/admin-page.php:445
+msgid "If set, they will overwrite the saved options."
+msgstr ""
+
+#: inc/admin-page.php:446
+msgid ""
+"Also, if you use the special value 0 to any attribute, the saved option will "
+"be deactivated."
+msgstr ""
+
+#: inc/admin-page.php:452
+msgid ""
+"Usually you only need to use the text attribute to set the text of the tweet,"
+" and allow the shortcode to do the rest."
+msgstr ""
+
+#: inc/admin-page.php:456
+msgid "Some examples:"
+msgstr ""
+
+#: inc/admin-page.php:460
+msgid ""
+"The simplest example. As you don't set the text, the current page URL will "
+"be shown in its place."
+msgstr ""
+
+#: inc/admin-page.php:466
+msgid ""
+"The recommended use. Displays the box with the text, the current URL and the "
+"saved options."
+msgstr ""
+
+#: inc/admin-page.php:471
+msgid "To use a custom URL. Note that URLs must be valid."
+msgstr ""
+
+#: inc/admin-page.php:476
+msgid "Changes the default call to action label."
+msgstr ""
+
+#: inc/admin-page.php:481
+msgid ""
+"Sets the hashtags of the tweet, or changes the default hashtags parameter, "
+"if set."
+msgstr ""
+
+#: inc/admin-page.php:486
+msgid "Sets or changes the default via parameter."
+msgstr ""
+
+#: inc/admin-page.php:491
+msgid "Disables the default via and hashtags parameters, if set in options."
+msgstr ""
+
+#: inc/admin-page.php:494
+msgid "About the Twitter API:"
+msgstr ""
+
+#: inc/admin-page.php:498
+msgid ""
+"Note that the Twitter API will receive and validate all the submitted params."
+msgstr ""
+
+#: inc/admin-page.php:499
+msgid ""
+"So, is a best practice to test each shortcode when it is published, "
+"especially if the text or the URL are too long."
+msgstr ""
+
+#: inc/admin-page.php:505
+msgid ""
+"Currently the maximum length of a tweet is 280 characters, including the "
+"text, the URL, the via parameter, the hashtags and the blanks."
+msgstr ""
+
+#: inc/admin-page.php:513
+msgid "Contribute development"
+msgstr ""
+
+#: inc/admin-page.php:517
+msgid ""
+"To make a standard WordPress plugin, even small, we spend dozens and dozens "
+"of hours programming lines of code, testing it and solving issues."
+msgstr ""
+
+#: inc/admin-page.php:523
+msgid ""
+"So, please think of contribute development giving us one minute of your time "
+"and/or a few bucks of your wallet."
+msgstr ""
+
+#: inc/admin-page.php:524
+msgid "This is very little for you, but a lot for us."
+msgstr ""
+
+#: inc/admin-page.php:528
+msgid "You can contribute as follow:"
+msgstr ""
+
+#: inc/admin-page.php:533
+msgid "If you like this plugin, give us a five stars rating clicking here."
+msgstr ""
+
+#: inc/admin-page.php:541
+msgid ""
+"If you make this plugin profitable, give us any Paypal donation clicking "
+"here."
+msgstr ""
+
+#: inc/admin-page.php:552
+msgid "Depuration info"
+msgstr ""
+
+#. Name of the plugin
+#: inc/admin.php:10
+msgid "Reve Click2Tweet"
+msgstr ""
+
+#: inc/admin.php:11
+msgid "Reve Click2Tweet Plugin"
+msgstr ""
+
+#: inc/options.php:73
+msgid "Click to tweet"
+msgstr ""
+
+#: inc/options.php:171
+msgid "(None)"
+msgstr ""
+
+#: inc/options.php:172
+msgid "Enabled"
+msgstr ""
+
+#: inc/options.php:173
+msgid "Disabled"
+msgstr ""
+
+#: inc/options.php:177
+msgid "Default call to action label"
+msgstr ""
+
+#: inc/options.php:184
+msgid "Show Twitter icon"
+msgstr ""
+
+#: inc/options.php:191
+msgid "Skin style"
+msgstr ""
+
+#: inc/options.php:198
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/options.php:205
+msgid "Default Twitter hashtags"
+msgstr ""
+
+#: inc/options.php:212
+msgid "Default Twitter via user"
+msgstr ""
+
+#: inc/options.php:219
+msgid "WordPress short URLs"
+msgstr ""
+
+#: inc/options.php:226
+msgid "Editor button"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Add totally custom, responsive and fast Click to tweet boxes to your "
+"WordPress site."
+msgstr ""
+
+#. Author of the plugin
+msgid "Fernando Reve"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://www.promostudio.es"
+msgstr ""

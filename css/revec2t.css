@@ -1,0 +1,118 @@
+/*
+** css/revec2t.css @ Reve Click2Tweet Plugin
+** The plugin styles
+*/
+
+/* THE DEFAULT STYLES */
+
+/* The full box container(div) */
+.revec2t-box {
+	margin: 15px 0px;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 1.4;
+	color: #555555;
+	background-color: #ffffff;
+	}
+
+.revec2t-box:hover {
+	filter: brightness(98%);
+	}
+
+/* The full box linkable area(a) */
+.revec2t-link,
+.revec2t-link:hover,
+.revec2t-link:active,
+.revec2t-link:focus {
+	display: block;
+	color: inherit;
+	text-decoration: none;
+	text-transform: none;
+	}
+
+/* The content(div) and the tweet text(p) */
+.revec2t-content {
+	text-align: left;
+	}
+
+.revec2t-tweet {
+	margin: 0;
+	padding: 4px 8px;
+	font-size: 110%;
+	font-style: italic;
+	}
+
+/* The bar(div) and the button(span) */
+.revec2t-bar {
+	text-align: right;	
+	}
+
+.revec2t-button {
+	display: inline-flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 2px 8px;
+	}
+
+/* The button content: icon(span) and label(span) */
+.revec2t-icon {
+	width: 30px;
+	height: 30px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url('../img/icon-twitter-blue.svg');
+	}
+
+.revec2t-label {
+	font-size: 90%;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #1da1f3;
+	}
+
+/* THE CLASSIC SKINS STYLES */
+
+.revec2t-box.revec2t-classic-1,
+.revec2t-box.revec2t-classic-2 {
+	border-radius: 12px;
+	border: 3px solid #1da1f2;
+	background-color: #ffffff;
+	}
+
+.revec2t-box.revec2t-classic-2 {
+	background-color: #1da1f2;
+	color: #ffffff;
+	}
+
+.revec2t-box.revec2t-classic-2 .revec2t-icon {
+	background-image: url('../img/icon-twitter-white.svg');
+	}
+
+.revec2t-box.revec2t-classic-2 .revec2t-label {
+	color: #ffffff;
+	}
+
+/* THE MODERN SKINS STYLES */
+
+.revec2t-box.revec2t-modern-1,
+.revec2t-box.revec2t-modern-2 {
+	background-color: #f2f2f2;
+	border-left: 30px solid #1da1f2;
+	}
+
+.revec2t-box.revec2t-modern-2 {
+	background-color: #1da1f2;
+	color: #ffffff;
+	}
+
+.revec2t-box.revec2t-modern-2 .revec2t-link {
+	border-left: 3px solid #ffffff;
+	}
+
+.revec2t-box.revec2t-modern-2 .revec2t-icon {
+	background-image: url('../img/icon-twitter-white.svg');
+	}
+.revec2t-box.revec2t-modern-2 .revec2t-label {
+	color: #ffffff;
+	}
